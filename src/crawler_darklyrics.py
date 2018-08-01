@@ -87,5 +87,3 @@ if __name__ == "__main__":
             for band_url, band in csv_reader:
                 print(band_url, band)
                 append_album_list(csv_writer, band_url)
-
-
